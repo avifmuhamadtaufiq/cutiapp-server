@@ -166,9 +166,3 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = "/static/"
 
 django_heroku.settings(locals())
-
-cloudinary.config(
-    cloud_name='avif444',
-    api_key='155881956689352',
-    api_secret='Ls1VtM5GiVFd-iOkofjOOnxoSpA'
-)
