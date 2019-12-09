@@ -62,9 +62,7 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_ALLOW_ALL = False
 
-CORS_ORIGIN_WHITELIST = (
-    'https://cutiapp.now.sh/',
-)
+CORS_ORIGIN_WHITELIST = ('https://cutiapp.now.sh',)
 
 CORS_ALLOW_CREDENTIALS = True
 
